@@ -18,6 +18,7 @@ pipeline {
             steps{
                 git 'https://github.com/rodegi/java-rest-api-calculator'
                 sh './mvnw package'
+                sh 'echo "prova"'
             }
         }
     }
